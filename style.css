@@ -1,0 +1,38 @@
+.container{
+    height:800px;
+    width: 500px;
+    position: absolute;
+}
+.sky{
+    height:650px;
+    width:500px;
+    background-color: rgb(68, 118, 194);
+    position: absolute;
+}
+.bird{
+    height:40px;
+    width:40px;
+    background-color: yellow;
+    position: absolute;
+}
+.ground{
+    width:500px;
+    height:150px;
+    background-color: rgb(114, 69, 11);
+    position: absolute;
+    top:650px;
+}
+.obstacle{
+    width:50px;
+    height:300px;
+    background-color: green;
+    position: absolute;
+}
+.topObstacle {
+    transform: rotate(180deg);
+    background-color: green;
+
+    width: 50px;
+    height: 300px;
+    position: absolute;
+}
